@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Product } from "@/store/slices/product";
-import { useAppStore } from "@/store/store";
+import { useAppStore } from "@/store/useStore";
 
 interface ProductCardProps {
   product: Product;

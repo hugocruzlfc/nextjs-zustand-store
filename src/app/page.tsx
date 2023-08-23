@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 import { Product } from "@/store/slices/product";
-import { useAppStore } from "@/store/store";
+import { useAppStore } from "@/store/useStore";
 import Head from "next/head";
 import ProductCard from "@/components/ProductCard";
 import CartItem from "@/components/CartItem";
